@@ -1,0 +1,1 @@
+# Automated-Sequence-Item-Generation-for-Different-Serial-Communication-Protocols
