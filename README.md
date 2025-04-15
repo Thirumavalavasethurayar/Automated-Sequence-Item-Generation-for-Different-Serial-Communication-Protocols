@@ -15,10 +15,10 @@ _  **Steps to run:**_
 **B. Basic Testbench and UVC:**
 
   _ **Description0:**_
-     Basic UVC is  a universal verification component which imlements the CAN protocol. Basic UVC is instantiated inside the Universal verification methodology test bench. 
+     Basic UVC is  a universal verification component which implements the CAN protocol. Basic UVC is instantiated inside the Universal verification methodology test bench. 
      Basic UVC folder consists of two main sub folders, those are _src_ and _example_. src directory has the UVC related files like sequencer, driver, monitor, sequence_item and agent.
      example folder has the test bench related files which are env, test and top files. 
-     Detailed description of the UVC and TB is captured in _basic_uvc_readme document_. The basic_uvc_readme document also details the simulation results and CAN protocol implementation.
+     Detailed description of the UVC and TB is captured in _basic_uvc_readme document. The basic_uvc_readme document also details the simulation results and CAN protocol implementation.
      UVM is the methodology of system verilog language. All the codes in this modules are written in UVM, so EDA tools are required to compile/run this modules.
      Makefile for QUESTASIM EDA tool is provoided in _example/run_ folder
      
@@ -30,7 +30,37 @@ _  **Steps to run:**_
    _**Result analysis:**_
       comp.log is the compilation log, which tells us the errors present in the code.
       basic.log is used to store the simulation print messages.
-      dump.wlf is used to dump the RTL signals.     
+      dump.wlf is used to dump the RTL signals.   
+
+  **C. Variable UVC:**
+
+  _ **Description0:**_
+     Basic UVC is  a universal verification component which implements either CAN protocol or Ethernet protocol.  
+     Here all the components and objects has both CAN and Ethernet members.
+     One of the IPs got the values based on the agent configuration variable.
+     Example : mode = 0 [CAN mode]; mode = 1[Ethernet mode].
+     Simulated this module for both the modes in UVM methodology. 
+     Detailed description of the variable UVC and TB is captured in _basic_uvc_readme document along with simulation results. 
+     Directory structure is same as the basic UVC method.
+     
+  _**Steps to run:**_ same as section B.
+            
+   _**Result analysis:**_ same as section B.
+
+**C. Override UVC:**
+
+  _ **Description0:**_
+     Basic UVC is  a universal verification component which implements either CAN protocol or Ethernet protocol.  
+     Here all the components and objects has both CAN and Ethernet members.
+     One of the IPs got the values based on the agent configuration variable.
+     Example : mode = 0 [CAN mode]; mode = 1[Ethernet mode].
+     Simulated this module for both the modes in UVM methodology. 
+     Detailed description of the variable UVC and TB is captured in _basic_uvc_readme document along with simulation results. 
+     Directory structure is same as the basic UVC method.
+     
+  _**Steps to run:**_ same as section B.
+            
+   _**Result analysis:**_ same as section B. 
 
 
 
