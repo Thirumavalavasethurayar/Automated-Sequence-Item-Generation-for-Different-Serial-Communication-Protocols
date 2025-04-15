@@ -34,7 +34,7 @@ _  **Steps to run:**_
 
   **C. Variable UVC:**
 
-  _ **Description:**_
+  _**Description:**_
      Basic UVC is  a universal verification component which implements either CAN protocol or Ethernet protocol.  
      Here all the components and objects has both CAN and Ethernet members.
      One of the IPs got the values based on the agent configuration variable.
@@ -49,7 +49,7 @@ _  **Steps to run:**_
 
 **C. Override UVC:**
 
-  _**Description0:**_
+  _**Description:**_
      Basic UVC is  a universal verification component which implements either CAN protocol or Ethernet protocol.  
      Here all the components and objects has both CAN and Ethernet members.
      One of the IPs got the values based on the agent configuration variable.
