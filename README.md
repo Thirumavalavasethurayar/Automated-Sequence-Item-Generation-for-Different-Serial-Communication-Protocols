@@ -1,6 +1,6 @@
 # Automated-Sequence-Item-Generation-for-Different-Serial-Communication-Protocols
 
-**Conversion script:**
+**Conversion script:** All the files are stored in excel_test folder
 
 1.Conversion script named excel.py can generate the UVM sequences from the spreadsheet.
 2. Input files are can.xlsx, eth.xlsx and uart.xlsx.
