@@ -68,7 +68,9 @@ _  **Steps to run:**_
      Automated UVC reduces huge time, because user needs to fill only the spreadsheet based on the protocol's frame format.
      User can execute the script mentioned in section A and the output files needs to be copied inside the UVC i.e. src folder.
           
-  _**Steps to run:**_ same as section B.
+  _**Steps to run:**_ 
+    same as section B.
+    make pyt [to run the conversion script]
             
    _**Result analysis:**_ same as section B and detailed result analysis in automated_uvc_readme document. 
 
