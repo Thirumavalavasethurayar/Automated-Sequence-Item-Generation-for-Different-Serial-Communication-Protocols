@@ -64,7 +64,7 @@ _  **Steps to run:**_
 **D. Automated UVC**
 
  _**Description:**_
-     User no need to write the sequence items for each protocol manually. Time taken by the user to write a single sequence item based on the frame format is huge.
+     User doesnot require to write the sequence items for each protocol manually. Time taken by the user to write a single sequence item based on the frame format is huge.
      Automated UVC reduces huge time, because user needs to fill only the spreadsheet based on the protocol's frame format.
      User can execute the script mentioned in section A and the output files needs to be copied inside the UVC i.e. src folder.
           
