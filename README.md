@@ -45,12 +45,12 @@ _  **Steps to run:**_
      
   _**Steps to run:**_ same as section B.
             
-   _**Result analysis:**_ same as section B.
+   _**Result analysis:**_ same as section B and detailed result analysis in variable_uvc_readme document.
 
 **C. Override UVC:**
 
   _**Description:**_
-     Override UVC is also same as vaibale UVC. Base sequence item is the parent of all the items.
+     Override UVC is also same as varibale UVC. Base sequence item is the parent of all the items.
      CAN and Ethernet sequence items are coded by extending the parent sequence item.
      UVC is configured as either CAN or Ethernet by using override methods from UVM.  
      Here sequence item objects has both either CAN or Ethernet members based on the configuration.
@@ -59,9 +59,18 @@ _  **Steps to run:**_
      
   _**Steps to run:**_ same as section B.
             
-   _**Result analysis:**_ same as section B. 
+   _**Result analysis:**_ same as section B and detailed result analysis in override_uvc_readme document. 
 
 **D. Automated UVC**
+
+ _**Description:**_
+     User no need to write the sequence items for each protocol manually. Time taken by the user to write a single sequence item based on the frame format is huge.
+     Automated UVC reduces huge time, because user needs to fill only the spreadsheet based on the protocol's frame format.
+     User can execute the script mentioned in section A and the output files needs to be copied inside the UVC i.e. src folder.
+          
+  _**Steps to run:**_ same as section B.
+            
+   _**Result analysis:**_ same as section B and detailed result analysis in automated_uvc_readme document. 
 
 
 
