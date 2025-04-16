@@ -47,7 +47,7 @@ _  **Steps to run:**_
             
    _**Result analysis:**_ same as section B and detailed result analysis in variable_uvc_readme document.
 
-**C. Override UVC:**
+**D. Override UVC:**
 
   _**Description:**_
      Override UVC is also same as varibale UVC. Base sequence item is the parent of all the items.
@@ -61,7 +61,7 @@ _  **Steps to run:**_
             
    _**Result analysis:**_ same as section B and detailed result analysis in override_uvc_readme document. 
 
-**D. Automated UVC**
+**E. Automated UVC**
 
  _**Description:**_
      User doesnot require to write the sequence items for each protocol manually. Time taken by the user to write a single sequence item based on the frame format is huge.
