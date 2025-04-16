@@ -1,0 +1,7 @@
++incdir+../../src
++incdir+../../example
++incdir+../../example/run
+
+../../src/basic_if.sv
+../../src/basic_pkg.sv
+../top.sv
